@@ -1,0 +1,15 @@
+.social-list a {
+    width: 32px;
+    height: 32px;
+    padding-top: 5px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    transition: all 0.2s ease-in-out;
+    background-color: #fff
+}
+
+.social-list a:hover {
+    color: var(--secondary);
+    background-color: rgba(255, 255, 255, 0.8)
+}

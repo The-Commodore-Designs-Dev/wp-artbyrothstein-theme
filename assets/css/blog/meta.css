@@ -1,0 +1,25 @@
+.meta {
+    color: #8f8f8f;
+    font-size: var(--font-small);
+}
+
+.meta span {
+    display: inline-block;
+    margin-right:.25em;
+}
+
+.meta span a {
+    color: #8f8f8f
+}
+.meta span.tag {
+    background-color: var(--lightgray);
+    padding:0 .5em;
+    border-radius:5px;
+}
+.meta span a:hover {
+    color: var(--secondary)
+}
+
+.meta span:last-child:after {
+    display: none
+}

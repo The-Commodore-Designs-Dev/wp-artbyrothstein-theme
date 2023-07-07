@@ -1,0 +1,73 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box
+}
+
+html {
+    line-height: 1.15;
+}
+body {
+    color: var(--secondary);
+    overflow-x: hidden;
+}
+a{
+    color: var(--gray-dark);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--gray-dark);
+    font-weight: bold
+}
+
+
+.form-control {
+    padding-top: 0.875rem;
+    padding-bottom: 0.875rem;
+    height: 2.75rem;
+    border-color: var(--light)
+}
+
+.theme-bg-light {
+    background: var(--light) !important
+}
+
+.theme-bg-dark {
+    background: var(--dark) !important
+}
+
+.logo{
+    width:78px;
+}
+
+.main-wrapper {
+    background: #fff;
+    min-height: 100vh;
+}
+
+.main-wrapper .container {
+    max-width: var(--content-max-width);
+}
+.page-title {
+    position:sticky;
+    top:0;
+    z-index:9999;
+    transition:all .2s;
+}
+.sticky{
+    padding:1em 0 !important;
+}
+.page-title .heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color:white;
+}
+
+.gradient{
+    background: rgb(43,43,43);
+    background: linear-gradient(151deg, var(--orange) 0%, var(--pink) 35%,var(--primary) 100%) !important;
+}
