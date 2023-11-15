@@ -7,5 +7,6 @@
   <?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
-  <?php get_template_part('partials/navigation', 'top') ?>
+<body <?php body_class('ct-layout--fixed'); ?>>
+  <div class="ct-site">
+    <?php get_template_part('partials/navigation', 'top') ?>
