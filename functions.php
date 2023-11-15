@@ -1,29 +1,8 @@
 <?php
-function register_nav()
-{
-    register_nav_menus(
-        array(
-            'header' => __('Header', 'artbyrothstein')
-        )
-    );
 
-    register_nav_menus(
-        array(
-            'footer' => __('Footer', 'artbyrothstein')
-        )
-    );
-
-    register_nav_menus(
-        array(
-            '404' => __('404', 'artbyrothstein')
-        )
-    );
-}
-
-if (!function_exists('setup')):
+if (!function_exists('setup')) :
     function setup()
     {
-        register_nav();
         add_theme_support('title-tag');
         add_theme_support('post-thumbnails');
         add_image_size('team', 400, 400, array('center', 'center'));
