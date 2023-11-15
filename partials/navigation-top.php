@@ -53,3 +53,18 @@
         </div>
     </div>
 </header>
+<script>
+    window.onscroll = function() {
+        var navSticky = document.querySelector("ct-header__logo-nav--sticky");
+        var headerWrapper = document.querySelector("ct-header__wrapper");
+
+        if (navSticky.scrollTop < 60 || self.pageYOffset < 60) {
+            navSticky.style.height = '75px';
+            headerWrapper.classList.add("ct-header__wrapper--stuck");
+        } else if (navSticky.scrollTop > 60 || self.pageYOffset > 60) {
+            navSticky.style.height = '';
+            headerWrapper.classList.remove("ct-header__wrapper--stuck");
+        }
+
+    }
+</script>

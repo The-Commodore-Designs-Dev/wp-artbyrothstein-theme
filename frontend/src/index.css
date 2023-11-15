@@ -55,7 +55,6 @@ header.ct-header{
     font-size: 0.875rem;
     color: rgba(0,0,0,1);
     box-sizing: inherit;
-    position: sticky;
 }
 
 .ct-header__wrapper--stuck {
