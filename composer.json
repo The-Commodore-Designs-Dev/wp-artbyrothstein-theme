@@ -1,0 +1,19 @@
+{
+    "name": "groths89/wp-artbyrothstein-theme",
+    "description": "",
+    "keywords": [
+        "wordpress",
+        "theme"
+    ],
+    "homepage": "https://github.com/groths89/wp-artbyrothstein-theme",
+    "authors": [
+        {
+            "name": "Art Gallery Theme",
+            "homepage": "https://gregorypaulrothstein.dev"
+        }
+    ],
+    "type": "wordpress-theme",
+    "require": {
+        "php": ">=8.0"
+    }
+}
