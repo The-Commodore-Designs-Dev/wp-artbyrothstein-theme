@@ -1,7 +1,7 @@
 <div id="ct-header__hero" class="ct-header__hero" data-slider="">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400%7CPoppins:300%7CRoboto:500" rel="stylesheet" property="stylesheet" type="text/css" media="all">
     <div class="forcefullwidth_wrapper_tp_banner" id="rev_slider_1_1_forcefullwidth" style="position:relative;width:100%;height:auto;margin-top:0px;margin-bottom:0px">
-        <div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-source="gallery" style="margin: 0px auto; background: transparent; padding: 0px; height: 1080px; position: absolute; overflow: visible; left: 0px;">
+        <div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-source="gallery" style="margin: 0px auto; background: transparent; padding: 0px; height: 1080px; position: absolute; overflow: visible; width: 100%; left: 0px;">
 
             <div id="rev_slider_1_1" class="rev_slider fullwidthabanner revslider-initialised tp-simpleresponsive rev_redraw_on_blurfocus" style="max-height: 1080px; margin-top: 0px; margin-bottom: 0px; height: 1080px;" data-version="5.4.8.3" data-slideactive="rs-1">
                 <ul class="tp-revslider-mainul" style="visibility: visible; display: block; overflow: hidden; width: 100%; height: 100%; max-height: none;">
