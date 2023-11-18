@@ -1,6 +1,6 @@
 <header class="ct-header" itemscope="" itemtype="http://schema.org/WPHeader">
-    <div class="ct-header__logo-nav--sticky" style="height: 75px;">
-        <div class="ct-header__wrapper ct-header__wrapper--stuck">
+    <div class="ct-header__logo-nav--sticky">
+        <div class="ct-header__wrapper">
             <div class="container-fluid">
                 <div class="ct-header__toolbar">
                 </div>
@@ -55,8 +55,8 @@
 </header>
 <script>
     window.onscroll = function() {
-        var navSticky = document.querySelector("ct-header__logo-nav--sticky");
-        var headerWrapper = document.querySelector("ct-header__wrapper");
+        var navSticky = document.querySelector(".ct-header__logo-nav--sticky");
+        var headerWrapper = document.querySelector(".ct-header__wrapper");
 
         if (navSticky.scrollTop < 60 || self.pageYOffset < 60) {
             navSticky.style.height = '75px';
