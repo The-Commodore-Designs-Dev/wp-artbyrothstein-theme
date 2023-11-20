@@ -1,17 +1,20 @@
-<?php
+<?php get_header(); ?>
 
-get_header(); ?>
+  <?php get_template_part('template-parts/global/wrapper-before-blog', 'single'); ?>
 
-<div class="max-w-4xl mx-auto px-4 prose">
-  <?php if (have_posts()) {
-    while(have_posts()) {
-      the_post(); ?>
-      <div>
-        <h1><?php the_title(); ?></h1>
-        <?php the_content(); ?>
-      </div>
-    <?php }
-  } ?>
-</div>
+      <?php if (have_posts()) : ?>
 
-<?php get_footer();
+          <?php while (have_posts()) : the_post(); ?>
+
+          <?php get_template_part('post-formats/content-single', get_post_format()); ?>
+
+          <?php endwhile; ?>
+
+        <?php get_template_part('template-parts/pagination', 'posts'); ?>
+
+      <?php else : get_template_part('post-formats/content', 'missing');
+      endif; ?>
+
+  <?php get_template_part('template-parts/global/wrapper-after', 'blog'); ?>
+
+<?php get_footer(); ?>
