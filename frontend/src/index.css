@@ -249,7 +249,7 @@ input[type="radio"], input[type="checkbox"] {
     }    
 }
 
-@media (min-width: 700px){
+@media (min-width: 1200px){
     ul.ct-main-navigation, div.ct-main-navigation > ul {
         display: -webkit-box;
         display: -webkit-flex;
@@ -267,19 +267,21 @@ input[type="radio"], input[type="checkbox"] {
     }    
 }
 
-ul.ct-main-navigation, div.ct-main-navigation > ul {
-    display: none;
-    list-style: none;
-    width: 100%;
-    position: relative;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    flex-direction: column;
-    -webkit-transition: all 200ms ease;
-    transition: all 200ms ease;
-    margin: 0 auto;
-    padding: 0;
+@media (min-width: 700px){
+    ul.ct-main-navigation, div.ct-main-navigation > ul {
+        display: none;
+        list-style: none;
+        width: 100%;
+        position: relative;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        -webkit-transition: all 200ms ease;
+        transition: all 200ms ease;
+        margin: 0 auto;
+        padding: 0;
+    }
 }
 
 .ct-main-navigation, input[type=text], input[type=email], input[type=name], textarea, select, .product_meta {

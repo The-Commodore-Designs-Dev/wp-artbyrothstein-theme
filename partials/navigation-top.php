@@ -5,8 +5,8 @@
                 <div class="ct-header__toolbar">
                 </div>
                 <div class="ct-header__logo-nav">
-                    <a href="https://demo.curlythemes.com/art-gallery-wp/" rel="home" class="ct-logo">
-                        <img class="ct-logo__image" src="https://demo.curlythemes.com/art-gallery-wp/wp-content/uploads/sites/24/2017/09/Asset-5@0.5x.png" srcset="https://demo.curlythemes.com/art-gallery-wp/wp-content/uploads/sites/24/2017/09/Asset-5.png 2x" alt="Art Gallery WP">
+                    <a href="#" rel="home" class="ct-logo">
+                        <img class="ct-logo__image" src="<?php echo get_theme_file_uri('assets/images/abr-logo.png') ?>" alt="Art Gallery WP">
                     </a>
                     <label id="ct-main-nav__toggle-navigation" for="ct-main-nav__toggle-navigation-main">Menu <i class="ti-align-justify"></i></label>
                     <div id="ct-main-nav">
