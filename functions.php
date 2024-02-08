@@ -35,3 +35,9 @@ function artbyrothstein_do_shortcodes($object, $field_name, $request)
 
   return $output;
 }
+
+/** Limit Products Listing */
+add_filter('loop_shop_per_page', function ($nr) {
+  if (is_single()) return 4;
+  return 100;
+}, 20);
